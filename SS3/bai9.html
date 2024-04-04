@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    function Arr(...arrs){
+        let n;
+        for( let btn of arrs){
+           n=btn.length;
+        }
+        let i=0;
+        let arrNew=[];
+        while(i<n){
+            let arrtmp=[]
+            for(let arr of arrs){
+                arrtmp.push(arr[i])
+            }
+            arrNew.push(arrtmp);
+            i++;
+        }
+        console.log(arrNew)
+    }
+    Arr([1,2,3],["a","b","c"])
+  </script>
+</html>

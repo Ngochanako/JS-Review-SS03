@@ -1,0 +1,27 @@
+ES6: phiên bản của js có nhiều tính năng mới có tính ứng dụng cao
+1. let,const
+LET: 
++ có hoisting nhưng không truy cập được
++ hoisting là cơ chế đưa việc khai báo lên đầu
++ không khai báo lại được
++ phạm vi : block scope
+const:
++ có hoisting nhưng không truy cập được
++ phạm vi : block scope
++ không thay đổi giá trị được
++ khi khai báo bắt buộc phải gán giá trị
+2.Template string
+Giúp truyền gía trị biến vào string
+${}
+3.Arow function
+4.Destructuring
+- Dùng với array
+- Dùng với object
+5.Rest Parameter
+- Mục đích : lấy hết đối số truyền vào hàm và trả về array
+6.Spread operater
+trong object chia làm 2 dạng clone:
+-deep clone
+-shalow clone
+7.Vòng lặp for/of
+

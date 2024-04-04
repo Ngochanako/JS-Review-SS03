@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    function students(id,name){
+        this.id=id;
+        this.name=name;
+    }
+    s1= new students(1,"Ngoc");
+    s2=new students(2,"hoa");
+    listStudent=[s1,s2];
+    listStudent.forEach(element => {
+        console.log(`hello ${element.name}`)
+    });
+  </script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function InsertArr(arr1,arr2,position){
+        if(position<0 || position>=arr1.length){
+            console.log("Vị trí không hợp lệ")
+        }else{
+            arr1.splice(position,0,...arr2)
+            console.log(arr1)
+        }
+    }
+    InsertArr([1,2,3,4,5],[7,8],2)
+</script>
+</html>
